@@ -19,7 +19,6 @@
                 <li><a href="enterprise-burden.html">企业之困</a></li>
                 <li><a href="international-experience.html">国际经验</a></li>
                 <li><a href="solutions.html">破局之道</a></li>
-                <li><a href="data-visualization.html">数据可视化</a></li>
             </ul>
         </div>
     </nav>
@@ -79,9 +78,16 @@
             </div>
         </div>
 
-        <div class="image-container">
-            <img src="image/各国养育成本相对于GDP的占比-GIF (2).gif" alt="各国养育成本对比" style="max-width: 800px;">
-            <p style="text-align: center; color: #666; margin-top: 1rem;">各国养育成本相对于GDP的占比对比</p>
+        <!-- 并列显示两个图表 -->
+        <div style="display: flex; gap: 2rem; margin: 2rem 0; align-items: flex-start; flex-wrap: wrap;">
+            <div class="image-container" style="flex: 1; min-width: 400px;">
+                <img src="image/各国养育成本相对于GDP的占比-GIF (2).gif" alt="各国养育成本对比" style="max-width: 100%; width: 100%;">
+                <p style="text-align: center; color: #666; margin-top: 1rem;">各国养育成本相对于GDP的占比对比</p>
+            </div>
+            <div class="image-container" style="flex: 1; min-width: 400px;">
+                <img src="image/图片5.png" alt="不同收入群体养育负担" style="max-width: 100%; width: 100%;">
+                <p style="text-align: center; color: #666; margin-top: 1rem;">不同收入群体的养育成本负担对比</p>
+            </div>
         </div>
 
         <!-- 真实案例 -->
@@ -97,7 +103,7 @@
                     <li>育儿支出预计：<span class="highlight">35%</span></li>
                     <li>剩余生活费用：25%</li>
                 </ul>
-                <p style="color: #f5576c; font-weight: bold;">"根本不敢考虑二胎"</p>
+                <p style="color: #f5576c; font-weight: bold;">"要一个孩子都有很大压力，根本不敢考虑二胎"</p>
             </div>
 
             <div class="card">
@@ -113,17 +119,27 @@
             </div>
         </div>
 
-        <div class="image-container">
-            <img src="image/图片4.png" alt="家庭养育成本构成" style="max-width: 750px;">
-            <p style="text-align: center; color: #666; margin-top: 1rem;">典型家庭养育成本构成分析</p>
+        <!-- 并列显示图片4和图片6 -->
+        <div style="display: flex; gap: 2rem; margin: 2rem 0; align-items: flex-start; flex-wrap: wrap;">
+            <div class="image-container" style="flex: 1; min-width: 400px;">
+                <img src="image/图片4.png" alt="家庭养育成本构成" style="max-width: 100%; width: 100%;">
+                <p style="text-align: center; color: #666; margin-top: 1rem;">生育决策背后的现实压力</p>
+            </div>
+            <div class="image-container" style="flex: 1; min-width: 400px;">
+                <img src="image/图片6.png" alt="生育成本分析" style="max-width: 100%; width: 100%;">
+                <p style="text-align: center; color: #666; margin-top: 1rem;">生育成本详细分析</p>
+            </div>
         </div>
 
         <!-- 成本分析 -->
         <h2 class="section-title">成本构成深度分析</h2>
         <hr class="divider">
 
+        <!-- 第一个小标题：不同收入家庭的生育经济压力 -->
+        <h3 class="section-title" style="font-size: 1.3rem; margin: 2rem 0 1rem 0;">不同收入家庭的生育经济压力</h3>
+
         <div class="card">
-            <h3>📊 收入水平差异分析</h3>
+            <h4>📊 收入水平差异分析</h4>
             <p>生育成本的沉重负担在不同收入群体中表现各异，但都构成了显著的经济压力：</p>
             
             <div style="margin: 2rem 0;">
@@ -142,15 +158,11 @@
             </div>
         </div>
 
-        <div class="image-container">
-            <img src="image/图片5.png" alt="不同收入群体养育负担" style="max-width: 700px;">
-            <p style="text-align: center; color: #666; margin-top: 1rem;">不同收入群体的养育成本负担对比</p>
-        </div>
 
-        <!-- 城乡差异 -->
+
+        <!-- 第二个小标题：城乡养育成本的结构性差异 -->
         <section style="margin: 3rem 0;">
-            <h2 class="section-title">城乡差异：显著的成本鸿沟</h2>
-            <hr class="divider">
+            <h3 class="section-title" style="font-size: 1.3rem; margin: 2rem 0 1rem 0;">城乡养育成本的结构性差异</h3>
             
             <div class="card-grid">
                 <div class="card">
@@ -168,28 +180,31 @@
                     <p><strong>同阶段成本：34.9万元（以西藏为例）</strong></p>
                     <ul style="margin: 1rem 0; padding-left: 2rem;">
                         <li>表面成本较低</li>
-                        <li>隐性成本突出：教育资源匮乏</li>
-                        <li>需要额外投入获得同等发展机会</li>
+                        <li>农村家庭的隐性成本更突出，教育资源匮乏导致孩子需要额外投入才能获得同等发展机会。</li>
                     </ul>
                 </div>
             </div>
+
+            <div class="image-container">
+                <img src="image/图片8.png" alt="城乡养育成本差异" style="max-width: 100%;">
+                <p style="text-align: center; color: #666; margin-top: 1rem;">城乡养育成本的结构性差异对比</p>
+            </div>
         </section>
 
-        <div class="image-container">
-            <img src="image/图片6.png" alt="城乡养育成本对比" style="max-width: 800px;">
-            <p style="text-align: center; color: #666; margin-top: 1rem;">城乡养育成本差异分析</p>
-        </div>
 
-        <!-- 多孩成本 -->
+
+        <!-- 第三个小标题：多孩家庭的生育经济成本特点 -->
         <section style="margin: 3rem 0;">
+            <h3 class="section-title" style="font-size: 1.3rem; margin: 2rem 0 1rem 0;">多孩家庭的生育经济成本特点</h3>
+
             <div class="card">
-                <h3>👶👶 多孩家庭的边际成本</h3>
+                <h4>👶👶 多孩家庭的边际成本</h4>
                 <p>虽然多孩家庭的边际成本有所降低，但总体支出仍随孩子数量增加而上升：</p>
                 
                 <div style="margin: 1.5rem 0; background: #e7f3ff; padding: 1.5rem; border-radius: 8px;">
                     <p><strong>成本对比：</strong>独生子女的养育成本比二胎高27%</p>
                     <p><strong>共享效应：</strong>部分用品、教育资源可共享</p>
-                    <p><strong>现实压力：</strong>两个孩子的学费、伙食费是双份的</p>
+                    <p><strong>总体支出上升：</strong>两个孩子的学费、伙食费是双份的</p>
                 </div>
 
                 <blockquote style="border-left: 4px solid #667eea; padding-left: 1rem; margin: 1.5rem 0; font-style: italic; color: #666;">
@@ -197,12 +212,14 @@
                     <br><span style="font-size: 0.9rem;">—— 山东某二线城市二孩妈妈刘禾清</span>
                 </blockquote>
             </div>
+
+            <div class="image-container">
+                <img src="image/图片9.png" alt="三孩生育咨询门诊现状" style="max-width: 100%;">
+                <p style="text-align: center; color: #666; margin-top: 1rem;">三孩生育咨询门诊现状</p>
+            </div>
         </section>
 
-        <div class="image-container">
-            <img src="image/图片7.png" alt="多孩家庭成本分析" style="max-width: 750px;">
-            <p style="text-align: center; color: #666; margin-top: 1rem;">多孩家庭养育成本边际效应分析</p>
-        </div>
+
 
         <!-- 教育军备竞赛 -->
         <section style="margin: 3rem 0;">
